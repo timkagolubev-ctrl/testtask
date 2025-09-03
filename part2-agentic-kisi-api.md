@@ -2,7 +2,7 @@
 
 ## Event Model Overview
 
-Kisi uses an **event-based** [API](https://docs.kisi.io/platform/apis) model where system activities are published as discrete events. Each event represents a state change and is delivered in a structured JSON payload. These payloads include metadata such as the actor (user or system), the resource involved (door, lock, reader, controler), the timestamp, the organisation and the outcome.  
+Kisi uses an **event-based** [API](https://api.getkisi.com) model where system activities are published as discrete events. Each event represents a state change and is delivered in a structured JSON payload. These payloads include metadata such as the actor (user or system), the resource involved (door, lock, reader, controler), the timestamp, the organisation and the outcome.  
 An example of a JSON payload can be seen below:
 ```json
 {
@@ -22,5 +22,15 @@ An example of a JSON payload can be seen below:
   "created_at": "2025-09-03T21:29:00Z"
 }
 ```
-Examples of events can include an unlocking of the door, a denial of access or an addition of a new user's credentials to the system.  
 
+## Integration and use of Kisi API
+An event-based API allows for real-time integration of Kisi with external systems and workflows. Each event (door unlock, access denial, user invitation) can be *consumed* via webhooks or API calls. This enables automation, notifications, and monitoring. By subscribing to these events, organizations can seamlessly connect Kisi with communication platforms, ticketing systems, auditing tools, and custom applications, ensuring that access events are integrated into broader operational processes.
+
+### Slack Notifications
+Kisi events can be integrated with Slack to provide real-time alerts. For example, when an access attempt is denied, a webhook can automatically post a message in a designated Slack channel.
+
+### Workflow Automation
+Events from Kisi can trigger automated workflows using platforms like Zapier or Microsoft Power Automate. For example, when a door is unlocked, a workflow could log the event in a database, update a CRM record, or notify the facilities team via email.
+
+### Calendar-Based Access
+Kisi events can integrate with workplace or scheduling systems (e.g., Google Calendar, OfficeRnD, Robin). For instance, unlocking a meeting room door can be allowed only during a booked time slot, and the system can automatically revoke access when the meeting ends, ensuring secure and efficient space management.
