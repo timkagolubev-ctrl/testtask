@@ -17,4 +17,4 @@
 1. Download the [Kisi mobile app (iOS or Android)](https://docs.kisi.io/dashboard/mobile_apps).
 2. Enable NFC, Bluetooth, and Location as needed.
 3. Use [Tap-to-Unlock](https://docs.kisi.io/dashboard/user_onboarding/use_kisi_on_mobile/#tap-to-unlock) or [MotionSense](https://docs.kisi.io/dashboard/user_onboarding/use_kisi_on_mobile/#motionsense) to access doors.
-4. Continue normal access while trying new reader features.
+4. Continue normal access while enjoying new Kisi reader features.
