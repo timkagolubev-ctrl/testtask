@@ -2,8 +2,8 @@
 
 ## Legacy reader + Kisi Reader
 - [Wire the Kisi Reader](https://docs.kisi.io/access_control/hardware/readers/kisi_reader_pro_2_1/wire_reader_pro_2_1) to the [Kisi controller](https://docs.kisi.io/access_control/hardware/controllers).
-- Connect the **legacy reader** to a [Wiegand channel](https://docs.kisi.io/access_control/hardware/controllers/kisi_wiegand_board/wire_legacy_hardware) set to `READER` mode.
-- The **Kisi Controller** now receives credentials from both readers, if *either* provides a valid credential, the door unlocks.
+- Connect the [legacy reader](https://docs.kisi.io/access_control/hardware/third_party_hardware/legacy_readers) to a [Wiegand channel](https://docs.kisi.io/access_control/hardware/controllers/kisi_wiegand_board/wire_legacy_hardware) set to `READER` mode.
+- The [Kisi controller](https://docs.kisi.io/access_control/hardware/controllers) now receives credentials from both readers, if *either* provides a valid credential, the door unlocks.
 <details>
   <summary>Step-by-Step Wiring Instructions for a Legacy Reader (click to expand)</summary>
 
