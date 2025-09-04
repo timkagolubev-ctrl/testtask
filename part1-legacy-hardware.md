@@ -11,3 +11,4 @@
 
 This integration allows for a smooth transition to Kisi while preserving legacy systems.  
 
+![Kisi wiring diagram](./Kisi-wiring-diagram(1).png)
