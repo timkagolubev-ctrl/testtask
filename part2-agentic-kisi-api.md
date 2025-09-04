@@ -24,8 +24,9 @@ An example of a JSON payload can be seen below:
 ```
 
 ## Integration and use of Kisi API
-An event-based API allows for real-time integration of Kisi with external systems and workflows. Each event (door unlock, access denial, user invitation) can be *consumed* via webhooks or API calls. This enables automation, notifications, and monitoring. By subscribing to these events, organizations can seamlessly connect Kisi with communication platforms, ticketing systems, auditing tools, and custom applications, ensuring that access events are integrated into broader operational processes.
+An event-based API allows for real-time integration of Kisi with external systems and workflows. Each event (door unlock, access denial, user invitation) can be *consumed* via webhooks or API calls. This enables automation, notifications, monitoring, and much more. By linking direct action to resulting events, organizations can connect Kisi with communication platforms, ticketing systems, auditing tools, and custom applications, ensuring that events are integrated into broader operational processes.
 
+### Below are a few examples of how Kisi’s event-based API can be used.
 ### Slack Notifications
 Kisi events can be integrated with Slack to provide real-time alerts. For example, when an access attempt is denied, a webhook can automatically post a message in a designated Slack channel.
 
