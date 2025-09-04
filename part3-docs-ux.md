@@ -19,7 +19,7 @@
 
 ## Kisi Controller + Legacy Controller
 - Connect the [Kisi Controller](https://docs.kisi.io/access_control/hardware/controllers) via its [Wiegand board](https://docs.kisi.io/access_control/hardware/controllers/kisi_wiegand_board/wire_legacy_hardware) to the legacy controller wired to the door.  
-- When a user authenticates through Kisi, the [Kisi Controller](https://docs.kisi.io/access_control/hardware/controllers) sends a valid credential to the legacy controller.
-- If any controller receives a valid credential, the door opens.
-
+- When a user authenticates through the reader, the [Kisi Controller](https://docs.kisi.io/access_control/hardware/controllers) recieves the credential and if it is valid, signal is sent to the legacy controller.
+- The legacy controller unlocks the door.
+  
 This integration allows for a smooth transition to Kisi while preserving legacy systems.  
